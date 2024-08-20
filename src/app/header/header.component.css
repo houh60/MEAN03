@@ -1,0 +1,17 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.mat-accent {
+  background-color: #ff4081;
+}
+
+.spacer {
+  flex: auto;
+}
+
+button:hover {
+  background-color: cyan;
+  color: black;
+}
