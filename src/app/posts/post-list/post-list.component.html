@@ -6,3 +6,6 @@
     <p>{{post.content}}</p>
   </mat-expansion-panel>
 </mat-accordion>
+
+<mat-paginator [length]="10" [pageSize]="2" [pageSizeOptions]="[1, 2, 5, 10, 25, 100]" aria-label="Select page">
+</mat-paginator>
